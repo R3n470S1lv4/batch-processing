@@ -17,7 +17,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 @Configuration
 @RequiredArgsConstructor
-public class BatchConfig {
+public class OlaMundo {
 
   @Bean
   public Job ImprimeOla(JobRepository jobRepository, Step imprimeOlaStep) {
